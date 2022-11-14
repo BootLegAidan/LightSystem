@@ -114,7 +114,7 @@ function mouseMoved(e) {
   document.body.style.cursor = 'none';
   clear()
   let obj = new Image()
-  obj.src = './images/mouse.png'
+  obj.src = 'mouse.png'
   ctx.drawImage(obj,e.clientX*(c.width/parseInt(getComputedStyle(c).width)),e.clientY*(c.height/parseInt(getComputedStyle(c).height)),10,15)
   draw()
 }
